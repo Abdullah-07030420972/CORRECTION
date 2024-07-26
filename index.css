@@ -1,0 +1,118 @@
+
+nav{
+  border: 3px solid green;
+  margin-bottom: 70px;
+  display: flex;
+}
+
+nav.logo{
+  width: 100px;
+  height: 100px;
+}
+
+nav .logo img{
+  width: 8%;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.button1{
+  background-color: rgb(231, 228, 228);
+  border: none;
+}
+
+.button2{
+  background-color: rgb(206, 79, 79);
+  border: none;
+  justify-self: 10px;
+}
+
+section{
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.head1{
+  height: 400px;
+  width: 500px;
+  border: 2px solid blue;
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.head2{
+  border: 2px solid blue;
+  height: 400px;
+  width: 400px;
+  background-image: url(./image/Netflicks.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+}
+
+.head2 button{
+  background-color: coral;
+  border: none;
+  height: 30px;
+  width: 400px;
+  color: white;
+  margin-top: 20px;
+}
+
+.border1{
+  height: 100px;
+  width: 813px;
+  border: 2px solid brown;
+  margin-right: 10px;
+  padding: 30px;
+  margin-top: 3px;
+  flex: 1;
+}
+
+.div2{
+  border: 2px solid yellow;
+  height: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  flex: 1;
+}
+
+.text2{
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+.text3{
+  padding-left: 120px;
+}
+
+.number{
+  width: 5%;
+  height: 40px;
+}
+
+.image{
+  height: 20px;
+}
+
+.title1{
+  margin-left: 120px;
+  margin-top: 5px;
+}
+
+.title2{
+  padding-left: 120px;
+}
+
+.logo{
+  padding: 5px;
+}
